@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from '../Home/Home'
 import Movies from '../Movies/Movies'
-//import Submit from './Submit/Submit'
+import Submit from '../Submit/Submit'
 import Navbar from '../Navbar/Navbar'
 import NotFound from '../NotFound/NotFound'
 import './App.css'
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path='/movies' element={<Movies />} />
         {/* <Route path="/movies/:id" element={<MovieDetails />} /> */}
-        {/* <Route path='/submit' element={<Submit />} /> */}
+        <Route path='/submit' element={<Submit />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
