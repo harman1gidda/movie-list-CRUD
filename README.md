@@ -1,5 +1,7 @@
 # movie-list-CRUD step-by-step instructions to develop CRUD app
 
+# Backend Set-up
+
 - At this point, there should be README.md file
 - Run follwoing commands
   -- `npm init -y`
@@ -132,3 +134,7 @@ For Mac user, press `q`
   -- `npx knex seed:run`
 - To rollback database
   -- `npx knex migrate:rollback`
+
+---
+
+# Front End Set-up
